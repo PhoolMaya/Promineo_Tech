@@ -1,0 +1,33 @@
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color:darkblue
+}
+
+div{ background-color:rgba(255, 235, 205, 0.073); 
+    border-style: solid; 
+    border-color:rgba(222, 184, 135, 0.43) ; 
+    border: radius 1px;
+}
+
+.shadow-text{
+text-shadow: rgb(94, 67, 67) 1px 
+}
+#large-paragraph{
+font-size: 20px;
+}
+style
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: black;
+  text-align: center;
+}
+
+
