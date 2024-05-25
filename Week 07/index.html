@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -10,15 +6,36 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.js">
+        <link rel="stylesheet"/>
+
     </head>
     <body>
         <h1>Javascript</h1>
-        
+        <h3>Let, Var and Const</h3>
+        <h4>Let</h4>
+        <p>Variables declared with let are block scoped.
+            They are accessible only within the block ie. inside loop or conditional statement, where they are defined. Let variable cannot be re-declared 
+            within the same scope but can be updated.
+        </p>
+        <h4>Var</h4> 
+         <P>Variables declared with var are globally scoped or function scoped.
+            That means if var is declared outside function,it is available for use throughout the entire window and if declared within a function, it's accessible only within that function.
+           Var can be re-declared and updated within their scope.
+         </P>
+         <h4>Const</h4>
+         <p>Const is similar to let in terms of block scope. However, variables declared with const must be initialized at the time of declaration and cannot be updated or re-declared.</p>
+
+         <h3>Promise</h3>
+         <p> A promise is an object representing an asynchronous operation. It provides a way to handle the eventual success or failure of that operation.
+         When you call an API that returns a promise, the function immediately returns a promise object. This object will eventually provide the result of the operation, whether it succeeds or fails.
+        To work with promises, you use a special syntax that makes writing asynchronous instructions more organized and promises allow you to chain multiple asynchronous operations together.
+        In summary, they are a powerful tool for writing clean and efficient JavaScript! 
+    </p>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+        <cite>Google</cite>
+                  <p>&copy;Maya</p>
         <script src="" async defer></script>
     </body>
 </html>
